@@ -28,4 +28,15 @@ public class TestController {
     public String test02_1(){
         return "Test: test02_1 브렌치";
     }
+
+    @GetMapping("test01")
+    public String test01(){
+        return "Test: test01 브렌치";
+    }
+
+    @GetMapping("test01-1")
+    public String test01_1(){
+        return "Test: test01 브렌치2";
+    }
+
 }
