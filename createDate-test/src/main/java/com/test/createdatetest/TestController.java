@@ -24,4 +24,9 @@ public class TestController {
         return "Test: test01 브렌치";
     }
 
+    @GetMapping("test01-1")
+    public String test01_1(){
+        return "Test: test01 브렌치2";
+    }
+
 }
