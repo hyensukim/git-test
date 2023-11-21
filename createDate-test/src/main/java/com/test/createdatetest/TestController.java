@@ -19,4 +19,8 @@ public class TestController {
 
     }
 
+    @GetMapping("test02")
+    public String test02(){
+        return "Test: test01 브렌치";
+    }
 }
