@@ -1,0 +1,13 @@
+
+# 2. Swagger 관련 추가 설정
+# packages-to-scan 설정으로 패키지 내부의 클래스는 모두 자동으로 Swagger 문서에 등록된다.
+# 만약 등록하고 싶지 않은 컨트롤러가 잇다면 @Hidden 어노테이션을 이용하여 숨길 수 있다.
+springdoc:
+  packages-to-scan: com.test.swaggertest.controllers
+  default-consumes-media-type: application/json;charset=UTF-8
+  default-produces-media-type: application/json;charset=UTF-8
+  swagger-ui:
+    path: /
+    disable-swagger-default-url: true
+    display-request-duration: true
+    operations-sorter: alpha
