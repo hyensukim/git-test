@@ -2,4 +2,5 @@ package com.test.createdatetest;
 
 public class Tmp {
     private String tmp;
+    private String tmp2;
 }
